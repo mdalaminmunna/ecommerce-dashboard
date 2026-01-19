@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__next-devtools__nextjs_call",
+      "Bash(npm run dev)",
+      "Bash(Get-Process -Id 2800)",
+      "Bash(Stop-Process -Force)",
+      "Bash(taskkill:*)",
+      "Bash(curl:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "next-devtools"
+  ]
+}
